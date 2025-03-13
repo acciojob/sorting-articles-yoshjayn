@@ -15,7 +15,7 @@ const sortedBands = bands.sort((a,b)=>{
 	// else return 0;
 	return 0;
 });
-let list = document.getElementById("band")
+let list = document.getElementById("bands")
 for(let s of sortedBands){
 let item = document.createElement("li")
 item.innerText=s
